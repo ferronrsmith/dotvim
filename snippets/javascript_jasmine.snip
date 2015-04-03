@@ -1,0 +1,105 @@
+snippet ex 
+	expect(${1:target})
+
+snippet it 
+	it('${1:description}', function(${2:done}) {
+	  ${0}
+	});
+
+snippet aft
+	afterEach(function() {
+	  ${0}
+	});
+
+snippet et
+	expect(${1:target}).toBeTruthy();
+
+snippet ru 
+	runs(function() {
+	  ${0}
+	});
+
+snippet des 
+	describe('${1:description}', function() {
+	  ${0}
+	});
+
+snippet notscw 
+	expect(${1:target}).wasNotCalledWith(${2:arguments});
+
+snippet scf 
+	spyOn(${1:object}, '${2:method}').andCallFake(${3:function});
+
+snippet note 
+	expect(${1:target}).not.toEqual(${2:value});
+
+snippet ec 
+	expect(${1:target}).toContain(${2:value});
+
+snippet notm 
+	expect(${1:target}).not.toMatch(${2:pattern});
+
+snippet s 
+	spyOn(${1:object}, '${2:method}');
+
+snippet escw 
+	expect(${1:target}).wasCalledWith(${2:arguments});
+
+snippet any 
+	jasmine.any($1)
+
+snippet wa 
+	waits($1);
+
+snippet en 
+	expect(${1:target}).toBeNull();
+
+snippet ed 
+	expect(${1:target}).toBeDefined();
+
+snippet notx 
+	expect(${1:target}).not
+
+snippet notf 
+	expect(${1:target}).not.toBeFalsy();
+
+snippet notn 
+	expect(${1:target}).not.toBeNull();
+
+snippet st 
+	spyOn(${1:object}, '${2:method}').andThrow(${3:exception});
+
+snippet notc 
+	expect(${1:target}).not.toContain(${2:value});
+
+snippet esc 
+	expect(${1:target}).wasCalled();
+
+snippet em 
+	expect(${1:target}).toMatch(${2:pattern});
+
+snippet notsc 
+	expect(${1:target}).wasNotCalled();
+
+snippet sct 
+	spyOn(${1:object}, '${2:method}').andCallThrough();
+
+snippet ee 
+	expect(${1:target}).toEqual(${2:value});
+
+snippet nott 
+	expect(${1:target}).not.toBeTruthy();
+
+snippet ef 
+	expect(${1:target}).toBeFalsy();
+
+snippet bef 
+	beforeEach(function() {
+	  ${0}
+	});
+
+snippet notd 
+	expect(${1:target}).not.toBeDefined();
+
+snippet sr 
+	spyOn(${1:object}, '${2:method}').andReturn(${3:arguments});

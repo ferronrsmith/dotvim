@@ -281,16 +281,16 @@
     set guioptions-=T                                 "toolbar icons
 
     if s:is_macvim
-      set gfn=Ubuntu_Mono:h14
+      set gfn=Ubuntu_Mono_derivative_Powerline:h14
       set transparency=2
     endif
 
     if s:is_windows
-      set gfn=Ubuntu_Mono:h10
+      set gfn=Ubuntu_Mono_derivative_Powerlin:h10:cANSI
     endif
 
     if has('gui_gtk')
-      set gfn=Ubuntu\ Mono\ 11
+      set gfn=Ubuntu\ Mono\ derivative\ Powerline\ 11
     endif
   else
     if $COLORTERM == 'gnome-terminal'

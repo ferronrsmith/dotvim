@@ -1,0 +1,362 @@
+snippet _after
+	_.after(${1:count})${0}
+
+snippet _all
+	_.all(function(${1:value}) {
+		$2
+	}${3:, ${4:[context]}})
+
+snippet _any
+	_.any(${1:function(${2:num}) {
+		$3
+	\}${4:, ${5:[context]}}})${0}
+
+snippet _bind
+	_.bind(${1:object}${2:, ${3:[*arguments]}})${0}
+
+snippet _bindAll
+	_.bindAll(${1:*[methodNames]})${0}
+
+
+snippet _chain
+	_.chain()
+
+
+snippet _clone
+	_.clone()
+
+
+snippet _compact
+	_.compact()${0}
+
+
+snippet _compose
+	_.compose(${1:*functions})${0}
+
+
+snippet _debounce
+	_.debounce(${1:function},${2:wait})${0}
+
+
+snippet _defaults
+	_.defaults(${1:*defaults})${0}
+
+
+snippet _defer
+	_.defer()
+
+
+snippet _delay
+	_.delay(${1:wait}${2:, ${3:*[arguments]}})${0}
+
+
+snippet _detect
+	_.detect(function(${1:num}) {
+		$2
+	}${3:, ${4:[context]}})${0}
+
+
+snippet _difference
+	_.difference(${1:array})${0}
+
+
+snippet _each
+	_.each(function(${1:num${2:, ${3:key}}}) {
+		$4
+	}${5:, ${6:[context]}})${0}
+
+
+snippet _extend
+	_.extend(${1:*sources})${0}
+
+
+snippet _first
+	_.first(${1:[n]})${0}
+
+
+snippet _flatten
+	_.flatten(${1:[n])${0}
+
+
+snippet _functions
+	_.functions(${1:value})
+
+
+snippet _groupBy
+	_.groupBy(function(${1:value}) {
+		$2
+	})${0}
+
+
+snippet _indexBy
+	_.indexBy(function(${1:value}) {
+		$2
+	})${0}
+
+
+snippet _countBy
+	_.countBy(function(${1:value}) {
+		$2
+	})${0}
+
+
+snippet _find
+	_.find([${1:list}], function(${2:num}) {
+		$3
+	})${0}
+
+
+snippet _findWhere
+	_.findWhere([${1:list}], { ${2:key} : ${3:value} })${0}
+
+
+snippet _filter
+	_.filter(function(${1:value}) {
+		$2
+	})${0}
+
+
+snippet _where
+	_.where([${1:list}], { ${2:key} : ${3:value} })${0}
+
+
+snippet _identity
+	_.identity(${1:value)${0}
+
+
+snippet _include
+	_.include(${1:value})${0}
+
+
+snippet _indexOf
+	_.indexOf(${1:value}${2:, ${3:[isSorted]}})${0}
+
+
+snippet _intersection
+	_.intersection(${1:*arrays})${0}
+
+
+snippet _invoke
+	_.invoke('${1:methodName}'${2:, ${3:[*arguments]}})${0}
+
+
+snippet _isArguments
+	_.isArguments(${1:*arrays)
+
+
+snippet _isArray
+	_.isArray(${1:*arrays)${0}
+
+
+snippet _isBoolean
+	_.isBoolean(${1:value})${0}
+
+
+snippet _isDate
+	_.isDate(${1:value})${0}
+
+
+snippet _isElement
+	_.isElement(${1:value})${0}
+
+
+snippet _isEmpty
+	_.isEmpty(${1:value})${0}
+
+
+snippet _isEqual
+	_.isEqual(${1:other})${0}
+
+
+snippet _isFunction
+	_.isFunction(${1:value})${0}
+
+
+snippet _isNaN
+	_.isNaN(${1:value})${0}
+
+
+snippet _isNull
+	_.isNull(${1:value})${0}
+
+
+snippet _isNumber
+	_.isNumber(${1:value})${0}
+
+
+snippet _isRegExp
+	_.isRegExp()
+
+
+snippet _isString
+	_.isString(${1:value})${0}
+
+
+snippet _isUndefined
+	_.isUndefined(${1:value})${0}
+
+
+snippet _keys
+	_.keys({${1:value}})${0}
+
+
+snippet _last
+	_.last([${1:value}])${0}
+
+
+snippet _lastIndexOf
+	_.lastIndexOf(${1:value}${2:, ${3:[isSorted]}})${0}
+
+
+snippet _map
+	_.map(function(${1:num${2:, ${3:key}}}) {
+		$4
+	}${5:, ${6:[context]}})${0}
+
+
+snippet _max
+	_.max(${1:function(${2:value}) {
+		$3
+	\}${4:, ${5:[context]}}})
+
+
+snippet _memoize
+	_.memoize(${1:[hashFunction]})${0}
+
+
+snippet _min
+	_.min(${1:function(${2:value}) {
+		$3
+	\}${4:, ${5:[context]}}})
+
+
+snippet _mixin
+	_.mixin(${1:{${2:name}: ${3:function(${4:*arguments}) {
+		$5
+	\}}})${0}
+
+
+snippet _noConflict
+	_.noConflict()
+
+
+snippet _once
+	_.once(${1:value})${0}
+
+
+snippet _pluck
+	_.pluck([${1:list}], '${2:propertyName}')${0}
+
+
+snippet _range
+	_.range(${1:${2:[start]}, }${3:stop}${4:, ${5:[step]}})${0}
+
+
+snippet _reduce
+	_.reduce(function(${1:memo}, ${2:num}) {
+		$3
+
+		return memo
+	}${4:, ${5:[context]}})${0}
+
+
+snippet _reduceRight
+	_.reduceRight(function(${1:a}, ${2:b}) {
+		$3
+	}, ${4:[]}${5:, ${6:[context]}})${0}
+
+
+snippet _reject
+	_.reject(function(${1:num}) {
+		$2
+	}${3:, ${4:[context]}})${0}
+
+
+snippet _every
+	_.every(function(${1:num}) {
+		$2
+	}${3:, ${4:[context]}})${0}
+
+
+snippet _some
+	_.some(function(${1:num}) {
+		$2
+	}${3:, ${4:[context]}})${0}
+
+
+snippet _rest
+	_.rest(${1:[n]})${0}
+
+
+snippet _select
+	_.select(function(${1:num}) {
+		$2
+	}${3:, ${4:[context]}})${0}
+
+
+snippet _size
+	_.size(${1:list})${0}
+
+
+snippet _sortBy
+	_.sortBy(function(${1:value}) {
+		$2
+	}${3:, ${4:[context]}})${0}
+
+
+snippet _sortedIndex
+	_.sortedIndex(${1:value})${0}
+
+
+snippet _tap
+	_.tap(${1:interceptor})${0}
+
+
+snippet _template
+	_.template(${1:templateString}${2:, ${3:[context]}})${0}
+
+
+snippet _throttle
+	_.throttle(${1:wait})${0}
+
+
+snippet _times
+	_.times(${1:function(${2:index}) {
+		$3
+	\}})${0}
+
+
+snippet _toArray
+	_.toArray(${1:list})${0}
+
+
+snippet _union
+	_.union(${1:*arrays})${0}
+
+
+snippet _uniq
+	_.uniq(${1:array}${2:, ${3:[isSorted]}})${0}
+
+
+snippet _uniqueId
+	_.uniqueId(${1:[prefix]})${0}
+
+
+snippet _value
+	_.value()
+
+
+snippet _values
+	_.values(${1:value})${0}
+
+
+snippet _without
+	_.without(${1:[*values]})${0}
+
+
+snippet _wrap
+	_.wrap(${1:wrapper})${0}
+
+
+snippet _zip
+	_.zip(${1:*arrays})${0}
