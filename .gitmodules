@@ -2,5 +2,5 @@
 	path = bundle/neobundle.vim
 	url = https://github.com/Shougo/neobundle.vim.git
 [submodule "powerline-fonts"]
-    path = powerline-fonts
-    url = https://github.com/ferronrsmith/powerline-fonts.git
+	path = powerline-fonts
+	url = https://github.com/ferronrsmith/powerline-fonts.git
