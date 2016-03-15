@@ -194,7 +194,10 @@
   set display+=lastline
   set wildmenu                                        "show list for autocomplete
   set wildmode=list:full
-  set wildignorecase
+  
+  if exists("&wildignorecase")
+    set wildignorecase
+  endif
 
   set splitbelow
   set splitright
