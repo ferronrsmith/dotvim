@@ -1,6 +1,6 @@
-[submodule "powerline-fonts"]
-	path = powerline-fonts
-	url = https://github.com/ferronrsmith/powerline-fonts.git
 [submodule "bundle/repos/github.com/Shougo/dein.vim"]
 	path = bundle/repos/github.com/Shougo/dein.vim
 	url = https://github.com/Shougo/dein.vim
+[submodule "powerline-fonts"]
+	path = powerline-fonts
+	url = https://github.com/powerline/fonts.git
